@@ -1,0 +1,26 @@
+.btn-show-form{
+    border-top-right-radius: 0 !important; 
+    border-top-left-radius: 0 !important; 
+}
+
+.form{
+    transform: translateY(-200%);
+    display: none;
+}
+
+.show-form{
+    transform: translateY(0%);
+    transition: 0.3s ease-out;
+    display: block;
+}
+
+.filter-active{
+    border: 2px solid #198754;
+    border-radius: 5px;
+    padding: 2px;
+    transition: 0.3s ease-out;
+}
+
+.w-60{
+    width: 60% !important;
+}
